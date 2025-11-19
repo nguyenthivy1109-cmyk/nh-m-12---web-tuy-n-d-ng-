@@ -1,0 +1,37 @@
+aãy # Database config
+config.php
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Vendor (nếu dùng Composer)
+vendor/
+
+# Node modules (nếu dùng npm)
+node_modules/
+
+# Environment
+.env
+.env.local
+
